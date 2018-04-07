@@ -1,0 +1,91 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <include file="example.xml"/>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="loginAction" class="edu.login.Action.LoginAction">
+            <result name="success">/mainFrame/main.jsp</result>
+            <result name="input">/login/index.jsp</result>
+            <result name="error">/login/index.jsp</result>
+        </action>
+        <action name="registerAction" class="edu.login.Action.RegisterAction">
+            <result name="success">/login/index.jsp</result>
+            <result name="input">/login/register.jsp</result>
+            <result name="error">/login/register.jsp</result>
+        </action>
+        <action name="upMessAction" class="edu.personManager.Action.UpdateMessAction">
+            <result name="success">/personMessage/lookMessage.jsp</result>
+            <result name="input">/personMessage/updateMessage.jsp</result>
+            <result name="error">/personMessage/updateMessage.jsp</result>
+        </action>
+        <action name="upPassAction" class="edu.personManager.Action.UpdatePassAction">
+            <result name="success">/personMessage/lookMessage.jsp</result>
+            <result name="input">/personMessage/updatePass.jsp</result>
+        </action>
+        <action name="addFriAction" class="edu.friendManager.Action.AddFriAction">
+            <result name="success">/friendManager/lookFriends.jsp</result>
+            <result name="input">/friendManager/addFriend.jsp</result>
+        </action>
+        <action name="findFriAction" class="edu.friendManager.Action.FindFriAction">
+            <result name="success">/friendManager/findFriend.jsp</result>
+            <result name="error">/friendManager/lookFriends.jsp</result>
+            <result name="input">/friendManager/lookFriends.jsp</result>
+        </action>
+        <action name="upFriAction" class="edu.friendManager.Action.UpdateFriAction">
+            <result name="success">/friendManager/lookFriends.jsp</result>
+            <result name="input">/friendManager/updateFriend.jsp</result>
+        </action>
+        <action name="deleteFriAction" class="edu.friendManager.Action.DeleteFriAction">
+            <result name="success">/friendManager/lookFriends.jsp</result>
+        </action>
+        <action name="addDayAction" class="edu.dateTimeManager.Action.AddDayAction">
+            <result name="success">/dateTimeManager/lookDay.jsp</result>
+            <result name="input">/dateTimeManager/addDay.jsp</result>
+            <result name="error">/dateTimeManager/addDay.jsp</result>
+        </action>
+        <action name="findDayAction" class="edu.dateTimeManager.Action.FindDayAction">
+            <result name="success">/dateTimeManager/findDay.jsp</result>
+            <result name="input">/dateTimeManager/lookDay.jsp</result>
+            <result name="error">/dateTimeManager/lookDay.jsp</result>
+        </action>
+        <action name="upDayAction" class="edu.dateTimeManager.Action.UpdateDayAction">
+            <result name="success">/dateTimeManager/lookDay.jsp</result>
+            <result name="input">/dateTimeManager/updateDay.jsp</result>
+            <result name="error">/dateTimeManager/updateDay.jsp</result>
+        </action>
+        <action name="deleteDayAction" class="edu.dateTimeManager.Action.DeleteDayAction">
+            <result name="success">/dateTimeManager/lookDay.jsp</result>
+        </action>
+        <action name="addFileAction" class="edu.fileManager.Action.AddFileAction">
+            <interceptor-ref name="fileUpload">
+                <param name="maximumSize">1024000000</param>   
+            </interceptor-ref>
+            <interceptor-ref name="defaultStack"/>
+                <param name="savePath">/save</param>
+            <result name="success">/fileManager/success.jsp</result>
+            <result name="input">/fileManager/fileUp.jsp</result>
+            <result name="error">/fileManager/fileUp.jsp</result>
+        </action>
+        <action name="findFileAction" class="edu.fileManager.Action.FindFileAction">
+            <result name="success">/fileManager/findFile.jsp</result>
+            <result name="input">/fileManager/lookFile.jsp</result>
+            <result name="error">/fileManager/lookFile.jsp</result>
+        </action>
+        <action name="deleteFileAction" class="edu.fileManager.Action.DeleteFileAction">
+            <result name="success">/fileManager/lookFile.jsp</result>
+            <result name="error">/fileManager/findFile.jsp</result>
+        </action>
+        <action name="downFileAction" class="edu.fileManager.Action.DownFileAction">
+            <param name="path">/ch13/save/${downloadFileName}</param>
+            <result name="success" type="stream">
+                <param name="contentType">application/octet-stream;charset=ISO8859-1</param>
+                <param name="inputName">inputStream</param>
+                <param name="contentDisposition">attachment;filename="${downloadFileName}"</param>
+                <param name="bufferSize">40960</param>
+            </result>
+        </action>
+    </package>
+</struts>

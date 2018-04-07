@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/login/register.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/dateTimeManager/Action/AddDayAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/WEB-INF/web.xml</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/dateTimeManager/addDay.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/personMessage/updatePass.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/fileManager/success.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/login/Action/LoginAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/friendManager/Action/DeleteFriAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/fileManager/Action/DownFileAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/personMessage/lookMessage.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/JavaBean/MyMessBean.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/personManager/Action/UpdateMessAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/login/Action/RegisterAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/fileManager/Action/FindFileAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/mainFrame/left.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/mainFrame/main.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/fileManager/lookFile.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/JavaBean/MyDayBean.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/JavaBean/MyFileBean.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/dateTimeManager/Action/UpdateDayAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/mainFrame/top.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/friendManager/updateFriend.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/dateTimeManager/lookDay.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/friendManager/lookFriends.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/dateTimeManager/Action/DeleteDayAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/friendManager/Action/UpdateFriAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/friendManager/Action/AddFriAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/dateTimeManager/Action/FindDayAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/friendManager/findFriend.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/fileManager/findFile.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/nbproject/build-impl.xml</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/fileManager/Action/AddFileAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/fileManager/Action/DeleteFileAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/mainFrame/toop.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/fileManager/fileUp.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/personManager/Action/UpdatePassAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/login/index.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/dateTimeManager/updateDay.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/friendManager/addFriend.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/struts.xml</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/dateTimeManager/findDay.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/DBJavaBean/DB.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/edu/friendManager/Action/FindFriAction.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/src/java/JavaBean/MyFriBean.java</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/personMessage/updateMessage.jsp</file>
+            <file>file:/F:/Netbeans/NetBeansCode/ch13/web/mainFrame/about.jsp</file>
+        </group>
+    </open-files>
+</project-private>
